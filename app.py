@@ -93,7 +93,7 @@ if len(date_range) == 2:
 st.header("Filtered Results")
 st.write(
     f"Matching rows: {len(filtered_df):,} | Columns: {len(filtered_df.columns)}")
-st.dataframe(filtered_df.head(20), width="stretch")
+st.dataframe(filtered_df, width="stretch")
 
 # Key Metrics
 st.header("Key Metrics")
