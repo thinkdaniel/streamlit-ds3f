@@ -29,7 +29,7 @@ unique_flat_types = sorted(df["flat_type"].dropna().unique())
 
 # Sets the page configuration
 # You can set the page title and layout here
-st.set_page_config(page_title="HDB Resale Dashboard", layout="wide")
+st.set_page_config(page_title="HDB Resale Dashboard v1.0.0", layout="wide")
 
 st.title("Singapore HDB Resale Dashboard")
 # st.caption("Code-along: building a usable dashboard from real resale transactions.")
